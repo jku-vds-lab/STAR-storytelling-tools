@@ -1,1 +1,1 @@
-const availablePdf = [];
+define({availablePdf: []});

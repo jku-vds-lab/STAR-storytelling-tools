@@ -1,9 +1,9 @@
 .entry {
     margin-bottom: 5px;
-    background: var(--bgColor2);
+    background: #EEEEEE;
     counter-increment: problem;
-    border: var(--strongBorder);
-    border-left: 7px solid black;
+    border: 1px solid black;
+    border-left: 5px solid black;
     padding: 10px 10px 0;
     overflow: auto;
 }
@@ -84,6 +84,9 @@
     background: #DDDDDD;
 }
 
+.entry .tags .add_tag {
+}
+
 .entry .tags .add_tag .tag_input {
     display: none;
 }
@@ -122,12 +125,16 @@
 .entry .links {
     font-size: 8pt;
     float: right;
+    #border: 1px solid black;
 }
 
 .entry .links a:before {
     content: "|";
     margin-right: 5px;
     margin-left: 5px;
+}
+
+.entry .links a {
 }
 
 .entry .links a:visited {
